@@ -37,7 +37,11 @@ Data Visulization:
 The visulization of the 3 interactions over the year 2015 shows that the C2Q interactions had the highest numbers, followed by C2A, and A2Q with the lowest count. The A2Q interactions showed a peak on Wednesdays, while the C2A and C2Q interactions had similar trends with the highest interaction numbers on Wednesdays and lowest on Sundays. 
 
 Network Analysis: 
+In order to create a network, I developed a Python function that creates a network graph using the NetworkX and Network packages. The function takes three parameters - a dataframe containing edge list data, a range value to subset the dataframe, and a name for the graph file. The function first subsets the dataframe, creates a NetworkX graph from the edge list data, calculates node degree, sets up node size and color attributes, and finally generates an interactive HTML network graph which opens in a new window.
 
+A2Q INTERACTION - TEMPORAL NETWORK ANALYSIS:
+I created the network graph of A2Q for 1 year, 1 week and 1 day.
+Further, to understand the intricacies of the A2Q user interaction, the key metrics such as - are studied.
 
 Community Visualization:
 
