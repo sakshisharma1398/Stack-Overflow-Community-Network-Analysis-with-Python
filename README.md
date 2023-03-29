@@ -51,8 +51,9 @@ Similar to A2Q, the network is created for C2A interaction. Here, for the tempor
 The number of data points for C2A was higher than A2Q but lower than C2Q interactions. The C2A interaction is more popular than A2Q because there is no point system associated with commenting. The analysis shows a one-day network of C2A and a one-week network of C2A, where the nodes with larger sizes mean that more users are commenting on a specific answer, which indicates a trending answer. The analysis also includes the centrality measures for C2A, such as betweenness centrality, degree centrality, closeness centrality, and eigenvector centrality. The findings show that some nodes have a higher centrality score than others, indicating their importance in the network.
 
 C2Q INTERACTION - NETWORK ANALYSIS:
+Similar to previous interaction, the network graph is created for C2Q interaction. The analysis was narrowed down to one day due to the large dataset. 
 
-
+The network graph visualization shows that larger and more densely connected nodes indicate trending questions with more user interest. The centrality metrics were used to analyze the network, and node 1491895 was identified as a significant and influential node. Betweenness had 5,530 nodes with zero betweenness, degree centrality had no edges with zero degree, closeness had 433 unreachable nodes, and Eigen had no nodes with an eigenvalue of zero.
 
 Community Visualization:
 
