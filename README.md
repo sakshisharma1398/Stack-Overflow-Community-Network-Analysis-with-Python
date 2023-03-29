@@ -56,6 +56,7 @@ Similar to previous interaction, the network graph is created for C2Q interactio
 The network graph visualization shows that larger and more densely connected nodes indicate trending questions with more user interest. The centrality metrics were used to analyze the network, and node 1491895 was identified as a significant and influential node. Betweenness had 5,530 nodes with zero betweenness, degree centrality had no edges with zero degree, closeness had 433 unreachable nodes, and Eigen had no nodes with an eigenvalue of zero.
 
 7. Community Visualization:
+7.1. Creating Communities:
 To create communities and set colors to each community a function com_graph is created. The function takes a dataframe, a range of rows to consider, and a name to save the graph. It creates a network graph from the dataframe and then detects communities using the Louvain algorithm and assigns a group number to each node. Finally, it creates a network graph using pyvis.network and saves it with the given name. 
 
 The function is then called multiple times with different dataframes to create community graphs for: 
@@ -63,9 +64,14 @@ A2Q 1 year, 1 week and 1 day.
 C2A 1 week and 1 day.
 C2Q 1 day.
 
-Insights and Conclusion:
-1. From the network visualization, we can observe that the users have the highest tendency to comment on questions, followed by comment on answer and answer to question.
-2. Stack Overflow can enhance the user experience by improving question quality, incentivizing users to answer more questions, and promoting collaboration through forums and chat rooms.
-3. By analyzing the weekly trends in traffic, the platform can boost up their site Infrastructure depending on the time.
-4. From the network metrics we identified the influential nodes. These nodes can help identify the topics that are widely discussed on the Stack Overflow Platform.
-5. From the network metrics and community visualization we can identify influential users and promote them.
+7.2. Creating Community Plots:
+Further, community plots are created based on the Louvain algorithm for the a2q, c2a, and c2q datasets. The community_plot function groups users into communities based on the community Louvain algorithm and creates a bar plot of the community population for the top 20 communities. The communities_a2q_df, communities_c2a_df_wk, and communities_c2q_df_day variables represent the communities found in the a2q(over the year), c2a (weekly), and c2q (daily) datasets, respectively. The community_plot function is called with these variables and the type of data ('a2q', 'c2a', 'c2q') to create the community plots.
+
+8. Insights and Conclusion:
+Based on this network analysis and community visualization of the Stack Overflow platform, following are the conclusions and insights to drive the business:
+
+1. The network visualization reveals that users mostly comment on questions, followed by comments on answers and answering questions. This insight can help Stack Overflow focus on improving the quality of questions asked on the platform to facilitate more user engagement.
+2. To further enhance the user experience, Stack Overflow can incentivize users to answer more questions, create forums and chat rooms for collaboration, and foster a sense of community among users.
+3. Analyzing weekly trends in traffic can help the platform allocate resources efficiently to meet the demand at different times, thereby ensuring a smoother user experience.
+4. By identifying influential nodes using network metrics, Stack Overflow can determine the topics that are widely discussed on the platform, allowing them to tailor their content and services to better serve their users.
+5. Community visualization can help identify influential users who can be promoted and incentivized to further engage with the platform, thereby enhancing the user experience and fostering a sense of community.
