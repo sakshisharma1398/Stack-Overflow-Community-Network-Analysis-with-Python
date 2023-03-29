@@ -33,6 +33,9 @@ Number of unique ID who comment on questions - c2q: 431971
 Number of unique ID who give answers - c2a: 29395
 Number of unique ID who comment on answers - c2a: 44363
 
+Data Visulization:
+The visulization of the 3 interactions over the year 2015 shows that the C2Q interactions had the highest numbers, followed by C2A, and A2Q with the lowest count. The A2Q interactions showed a peak on Wednesdays, while the C2A and C2Q interactions had similar trends with the highest interaction numbers on Wednesdays and lowest on Sundays. 
+
 Network Analysis:
 
 Community Visualization:
