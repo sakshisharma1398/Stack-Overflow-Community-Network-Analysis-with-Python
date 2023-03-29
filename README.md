@@ -24,13 +24,13 @@ This dataset will serve as the basis for our exploratory data analysis, data cle
 Exploratory Data Analysis:
 The A2Q dataset contains 3,070 interactions, while the C2Q dataset is the densest with around 3.95 million interactions, and the C2A dataset contains 191k interactions. 
 
-Number of unique ID who asks questions - a2q: 1891
+Number of unique ID who asks questions - a2q: 1891 
 Number of unique ID who answers questions - a2q: 1723
 
-Number of unique ID who asks questions - c2q: 531308
+Number of unique ID who asks questions - c2q: 531308 
 Number of unique ID who comment on questions - c2q: 431971
 
-Number of unique ID who give answers - c2a: 29395
+Number of unique ID who give answers - c2a: 29395 
 Number of unique ID who comment on answers - c2a: 44363
 
 Data Visulization:
