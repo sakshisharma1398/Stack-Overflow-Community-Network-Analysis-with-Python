@@ -12,7 +12,7 @@ iii) C2Q = User V commented on U’s question
 I am unable to upload the C2Q csv file due to the size of the file.
 
 3. Preparing the Data:
-Using these datasets, we constructed a temporal network of interactions between Stack Overflow users, where each interaction is associated with a specific time. As the datasets contain a vast amount of data, we filtered the interactions to consider only the ones that occurred in the year 2015 across all three datasets.
+Using these datasets, I constructed a temporal network of interactions between Stack Overflow users, where each interaction is associated with a specific time. As the datasets contain a vast amount of data, I filtered the interactions to consider only the ones that occurred in the year 2015 across all three datasets.
 
 The resulting dataset contains four variables, namely:
 
